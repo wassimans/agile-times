@@ -1,28 +1,22 @@
 # AgileTimes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+Welcome to the Sample app for my Pluralsight Course [Building Beautiful Angular Apps with PrimeNG](https://app.pluralsight.com/courses/angular-apps-prime-ng).
 
-## Development server
+The course was officially released on Thursday, Aug 24, 2017.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I'll keep this page updated with breaking changes as the course ages.
 
-## Code scaffolding
+## Take it for a spin
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+I deploy the latest version of the application directly to github pages. 
 
-## Build
+[Try it out now](https://glenasmith.github.io/pluralsight-primeng/)
+ 
+ 
+## Errata & Updates
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- 2017-09-17 - Introduced "starter-kit" branch for initial project template
+- 2017-08-28 - Fixed some CSS Dialog footer layout issues (my old 2.x CSS causing 4.x issues) 
+- 2017-08-24 - Course officially released [here](https://app.pluralsight.com/courses/angular-apps-prime-ng)
+- 2017-08-24 - Bumped Deps to latest version (PrimeNG 4.1.3, Angular 4.3.6)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

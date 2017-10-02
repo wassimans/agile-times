@@ -1,14 +1,14 @@
 import { AgileTimesPage } from './app.po';
 
-describe('agile-times App', () => {
+describe('agile-times App', function() {
   let page: AgileTimesPage;
 
   beforeEach(() => {
     page = new AgileTimesPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
